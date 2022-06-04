@@ -1,15 +1,22 @@
-# Basic Sample Hardhat Project
+# サイト概要
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+テストネットのrinkeby上で動くNFTMarketです。
 
-Try running some of the following tasks:
+NFTをミント、購入、販売ができます。
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+画像はIPFS上にアップロードされます。
+
+<img width="1369" alt="スクリーンショット 2022-06-03 17 07 23" src="https://user-images.githubusercontent.com/29172469/171861274-bae39374-afb6-4227-b65b-d53a1fc5c916.png">
+
+
+# 使用技術
+
+・Nextjs
+
+・Solidity
+
+・HTML
+
+・CSS
+
+・Tailwind CSS
