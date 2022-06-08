@@ -93,7 +93,13 @@ export default function CreatorDashboard() {
                   key={i}
                   className="border shadow rounded-xl overflow-hidden"
                 >
-                  <Image src={nft.image} className="rounded" alt="nft_image" />
+                  <Image
+                    src={nft.image}
+                    className="rounded"
+                    width={250}
+                    height={300}
+                    alt="nft_image"
+                  />
                   <div className="p-4 bg-black">
                     <p className="text-2xl font-bold text-white ">
                       Price - {nft.price} ETH

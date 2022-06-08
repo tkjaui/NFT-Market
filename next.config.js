@@ -7,6 +7,9 @@ const nextConfig = {
   future: {
     webpack5: true,
   },
+  experimental: {
+    outputStandalone: true,
+  },
 };
 
 module.exports = nextConfig;
