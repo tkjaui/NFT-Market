@@ -19,3 +19,6 @@ NFT をミント、購入、販売ができます。
 ・CSS
 
 ・Tailwind CSS
+
+・Docker
+
